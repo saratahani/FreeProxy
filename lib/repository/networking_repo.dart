@@ -11,7 +11,7 @@ class ApiService {
     List<ProxyModle> finalProxyModleList = [];
     try {
       log('**********netWorking***********', name: 'proxyGet');
-      Response response = await dio.get('http://ttscenter.top/api/api.php');
+      Response response = await dio.get('https://mtpro.xyz/api/?type=mtproto');
       log('**********netWorking status code : ${response.statusCode}***********',
           name: 'proxyGet');
 
